@@ -1,0 +1,3 @@
+# Prebuilt Rust static libraries for x86_64 go here.
+# Run `bash android/build-rust-android.sh` to build them.
+

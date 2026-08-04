@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "name": "Android-iOS",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/node_modules/react-native-nitro-modules/cpp/**",
+        "${workspaceFolder}/node_modules/react-native/ReactCommon/**",
+        "${workspaceFolder}/node_modules/react-native/React/**",
+        "${workspaceFolder}/node_modules/react-native/ReactAndroid/src/main/jni/**"
+      ],
+      "defines": [
+        "ANDROID",
+        "SS_USE_RUST",
+        "FOLLY_NO_CONFIG=1",
+        "RN_SERIALIZABLE_STATE"
+      ],
+      "cStandard": "c17",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compileCommands": ""
+    }
+  ],
+  "version": 4
+}
+

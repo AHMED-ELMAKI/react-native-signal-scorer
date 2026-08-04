@@ -1,0 +1,20 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": ["signalscorer"],
+  "ios": {
+    "iosModuleName": "NitroSignalScorer"
+  },
+  "android": {
+    "androidNamespace": ["signalscorer"],
+    "androidCxxLibName": "NitroSignalScorer"
+  },
+  "autolinking": {
+    "SignalScorer": {
+      "all": {
+        "language": "c++",
+        "implementationClassName": "HybridSignalScorer"
+      }
+    }
+  },
+  "ignorePaths": ["**/node_modules"]
+}
