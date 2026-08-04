@@ -1,3 +1,5 @@
+// Adapted from react-native-random-forest (https://github.com/tony-div/react-native-random-forest)
+// by Tony George. See README "Attribution" section.
 #include <jni.h>
 #include <android/log.h>
 #include <cstddef>

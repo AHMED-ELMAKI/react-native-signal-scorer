@@ -17,7 +17,11 @@ It also supports **batch evaluation** over sliding windows, and can run multiple
 
 ## Why this is different
 
- It focuses on signal analysis, trend scoring, and time-series heuristics instead of decision-tree inference. The architecture is borrowed from the Nitro module template (TypeScript spec → C++ HybridObject → Rust FFI), but the algorithm and domain are entirely its own.
+It focuses on signal analysis, trend scoring, and time-series heuristics instead of decision-tree inference. The Nitro module architecture (TypeScript spec → C++ HybridObject → Rust FFI), the build scaffold, and the Rust integration layer are adapted from [`react-native-random-forest`](https://github.com/tony-div/react-native-random-forest) by Tony George (see the [Attribution](#attribution) section). The signal-scoring algorithm and domain are entirely its own.
+
+## Attribution
+
+The Nitro module build scaffold (Android/iOS integration, CMake/Rust build glue) and the Rust FFI integration architecture are adapted from [`react-native-random-forest`](https://github.com/tony-div/react-native-random-forest) by Tony George. The signal-scoring algorithm and TypeScript API are original to this project.
 
 ## Architecture
 

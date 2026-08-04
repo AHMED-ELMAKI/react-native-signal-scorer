@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Adapted from react-native-random-forest (https://github.com/tony-div/react-native-random-forest)
+# by Tony George. See README "Attribution" section.
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"

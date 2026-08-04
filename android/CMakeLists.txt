@@ -1,3 +1,5 @@
+# Adapted from react-native-random-forest (https://github.com/tony-div/react-native-random-forest)
+# by Tony George. See README "Attribution" section.
 project(NitroSignalScorer)
 cmake_minimum_required(VERSION 3.9.0)
 
