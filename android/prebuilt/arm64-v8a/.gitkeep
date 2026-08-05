@@ -1,0 +1,3 @@
+# Prebuilt Rust static libraries for arm64-v8a go here.
+# Run `bash android/build-rust-android.sh` to build them.
+

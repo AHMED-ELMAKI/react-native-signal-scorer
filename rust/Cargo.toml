@@ -1,0 +1,8 @@
+[package]
+name = "signal_ticker_rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "signal_ticker_rust"
+crate-type = ["staticlib", "cdylib"]

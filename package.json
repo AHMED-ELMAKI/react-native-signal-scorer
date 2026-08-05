@@ -1,0 +1,69 @@
+{
+  "name": "react-native-signal-scorer",
+  "version": "0.1.1",
+  "description": "Signal scoring engine - shared Rust native module for React Native trend/volatility analysis",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "react-native.config.js",
+    "android/build.gradle",
+    "android/build-rust-android.sh",
+    "android/prebuilt",
+    "android/gradle.properties",
+    "android/fix-prefab.gradle",
+    "android/CMakeLists.txt",
+    "android/src",
+    "cpp",
+    "ios/**/*.h",
+    "ios/**/*.m",
+    "ios/**/*.mm",
+    "ios/**/*.cpp",
+    "ios/**/*.swift",
+    "rust/Cargo.toml",
+    "rust/Cargo.lock",
+    "rust/src",
+    "nitrogen",
+    "nitro.json",
+    "*.podspec",
+    "README.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf android/build node_modules/**/android/build lib",
+    "typescript": "tsc",
+    "specs": "tsc --noEmit false && nitrogen --logLevel=\"debug\""
+  },
+  "keywords": [
+    "react-native",
+    "nitro",
+    "signal-processing",
+    "time-series",
+    "trend-analysis"
+  ],
+  "license": "MIT",
+  "author": "AHMED-ELMAKI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AHMED-ELMAKI/react-native-signal-scorer.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.03",
+    "nitrogen": "*",
+    "react": "19.2.3",
+    "react-native": "0.85.1",
+    "react-native-nitro-modules": "^0.35.4",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-nitro-modules": "*"
+  }
+}
